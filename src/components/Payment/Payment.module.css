@@ -47,9 +47,28 @@
     font-weight: 600;
 }
 
-@media (max-width: 1000px) {
-    .container_payment {
-        width: 80%;
+@media (max-width: 370px) {
+    .box_method {
+        width: 150px;
+    }
+
+    .box_method_unselected {
+        width: 150px;
     }
   }
+
+@media (max-width: 800px) {
+    .container_method {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  
+@media (max-width: 1000px) {
+    .container_payment {
+        width: 70%;
+    }
+  }
+
 

@@ -42,6 +42,7 @@ const  DeliveryOrder = () => {
     setIsDropshipper(false);
     setSelectedShipment({});
     setSelectedPayment({});
+    setCount(0);
   }
 
   const submitPayment = () => {

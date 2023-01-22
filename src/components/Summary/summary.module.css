@@ -72,8 +72,17 @@
 
     .container_summary {
        padding-top: 16px;
-       width: 80%;
-    } 
-    
+       width: 90% !important;
+       border-left: 0;
+       padding-left: 10px
+    }  
   }
-  
+
+  @media (max-width: 1000px) {
+
+    .container_summary {
+       padding-top: 16px;
+       width: 80%;
+       padding-left: 10px
+    }  
+  }
