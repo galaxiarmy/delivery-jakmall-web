@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "method": "GO-SEND",
+        "price": 15000,
+        "duration": "Today"
+    },
+    {
+        "id": 2,
+        "method": "JNE",
+        "price": 9000,
+        "duration": "2 Days"
+    },
+    {
+        "id": 3,
+        "method": "Personal Courier",
+        "price": 29000,
+        "duration": "1 Day"
+    }
+]

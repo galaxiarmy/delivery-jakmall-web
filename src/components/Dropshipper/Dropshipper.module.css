@@ -1,0 +1,78 @@
+.container_dropshipper_details {
+    width: 50%;
+    margin-right: 50px;
+}
+.container_dropshipper {
+  margin-top: 30px;
+}
+  .container_fields {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .information_dropshipper {
+    width: 100%;
+  }
+  .header_delivery_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .container_checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+.header_title {
+    color: #FF8A00;
+}
+
+.inputTextDefault {
+    border: 1.5px solid;
+    font-size: 1rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    transition: border-color 0.5s ease-out;
+    border-color: #CCCCCC; 
+    width: 100%;
+}
+
+.inputTextValid {
+  border: 1.5px solid;
+  font-size: 1rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  transition: border-color 0.5s ease-out;
+  border-color: #1BD97B;
+  background: url("../../assets/icons/icons8-done.svg") no-repeat 95% 50% white;
+  background-size: 16px; 
+  width: 100%;
+
+}
+
+
+.inputTextInvalid {
+    border: 1.5px solid;
+    font-size: 1rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    transition: border-color 0.5s ease-out;
+    border-color: #FF8A00;
+    background: url("../../assets//icons//icons8-multiply.png") no-repeat 95% 50% white;
+    background-size: 16px;
+    width: 100%;
+
+  }
+
+  @media (max-width: 800px) {
+    .container_dropshipper_details {
+      width: 80%;
+  }
+    
+  }
+  

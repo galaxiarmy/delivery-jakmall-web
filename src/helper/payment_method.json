@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "method": "e-Wallet"
+    },
+    {
+        "id": 2,
+        "method": "Bank Transfer"
+    },
+    {
+        "id": 3,
+        "method": "Virtual Account"
+    }
+]

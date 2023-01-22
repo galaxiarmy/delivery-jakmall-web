@@ -1,0 +1,55 @@
+.header_title {
+    color: #FF8A00;
+}
+
+
+.container_method {
+    display: flex;
+    flex-direction: row;
+}
+
+.box_method {
+    padding: 6px 6px;
+    margin: 6px;
+    border: #1BD97B solid 1.5px;
+    width: 210px;
+    height: 60px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    background: url("../../assets/icons/icons8-done.svg") no-repeat 95% 50%  RGBA(27,217,123,.10);
+
+}
+
+.box_method_unselected {
+    padding: 6px 6px;
+    margin: 6px;
+    border: #CCCCCC solid 1.5px;
+    width: 210px;
+    height: 60px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.title_method {
+    margin: 0;
+    font-size: 12px;
+    color: #CCCCCC;
+    font-weight: 600;
+
+}
+
+.title_price {
+    margin: 0;
+    font-size: 14px;
+    color: #CCCCCC;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+    .container_payment {
+        width: 80%;
+    }
+  }
+

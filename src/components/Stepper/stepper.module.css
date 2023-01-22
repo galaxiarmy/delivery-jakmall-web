@@ -1,0 +1,52 @@
+.container_stepper {
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number_circle {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8A00;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.number_circle_inactive {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe7cc;
+    color: #FF8A00;
+    border-radius: 50%;
+}
+
+.title_stepper {
+    color: #FF8A00;
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+.stepper_body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon_stepper {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .container_stepper{
+        width: 100%;
+        flex-direction: column;
+    }
+  }

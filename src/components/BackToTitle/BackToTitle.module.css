@@ -1,0 +1,13 @@
+.container_back {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 6px;
+}
